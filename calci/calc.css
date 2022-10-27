@@ -14,15 +14,24 @@ body {
   width: 80px;
   background-color: rgb(245, 220, 183);
   border-radius: 15px;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 75%;
 }
 .number:hover {
-  opacity: 1;
+  opacity: 100%;
 }
 .symbol {
   height: 70px;
   width: 90px;
   border-radius: 15px;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(222, 151, 58);
+  opacity: 75%;
+}
+.symbol:hover {
+  opacity: 100%;
 }
 #clear {
   background-color: rgb(255, 153, 0);
